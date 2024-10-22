@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+body{
+    font-family: "Oxanium", sans-serif;
+}
+#board div{
+    /* While board with = 540px it divides 3x3 matrix and 540/3 = 180px */
+    width: 180px;
+    height: 180px;
+    background: url("pipe.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board div img{
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
